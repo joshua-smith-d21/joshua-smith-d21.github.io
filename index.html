@@ -13,9 +13,10 @@
 <body>
 
 <!-- Use it like any other HTML element -->
-<model-viewer alt="Model Viwer" src="mcmaster_carr_coupling_10mm.glb" shadow-intensity="1" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer"></model-viewer>
+<a href="intent://arvr.google.com/scene-viewer/1.0?file=https://github.com/joshua-smith-d21/joshua-smith-d21.github.io/raw/main/cabin2.glb&enable_vertical_placement=false#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">View Model</a>;
 <br>
-  
+   <model-viewer src="cabin2.glb" shadow-intensity="1" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer quick-look"></model-viewer>
+<br>  
 <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://github.com/joshua-smith-d21/joshua-smith-d21.github.io/raw/main/cabin1.glb&enable_vertical_placement=false#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">View Model</a>;
 <br>
   
@@ -38,5 +39,7 @@
   }, 1500.0);
 })();
 </script>
+   <br>
+      <model-viewer alt="Model Viwer" src="mcmaster_carr_coupling_10mm.glb" shadow-intensity="1" camera-controls touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer"></model-viewer>
 </body>
 </html>
