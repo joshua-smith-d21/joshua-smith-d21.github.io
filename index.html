@@ -33,7 +33,8 @@
   const modelViewer = document.querySelector('#paused-change-demo');
 
   self.setInterval(() => {
-    modelViewer.animationName = modelViewer.animationName === 'Animation1' : 'Animation2';
+    modelViewer.animationName = modelViewer.animationName === 'Animation1' ?
+       'Animation2' : 'Animation1';
   }, 1500.0);
 })();
 </script>
